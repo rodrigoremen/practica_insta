@@ -19,6 +19,11 @@ class BottomNavigationTab extends StatelessWidget {
           icon: Icon(Icons.person_outline),
           label: '',
         ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.newspaper),
+          label: '',
+        ),
+        
       ],
       currentIndex: selectedIndex,
       selectedItemColor: Colors.black,
